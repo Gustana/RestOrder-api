@@ -1,9 +1,9 @@
 <?php
     class Connection{
-        public $_user = "root";
-        public $_pass = "gustana";
-        public $_host = "localhost";
-        public $_db = "db_resto";
+        private $_user = "root";
+        private $_pass = "gustana";
+        private $_host = "localhost";
+        private $_db = "db_resto";
         protected $conn;
 
         public function __construct(){
